@@ -1,6 +1,6 @@
-<% provide(:title, "Home") %>
-<h1><%= t ".title"%></h1>
+<% provide :title, t(".title") %>
+<h1><%= t ".title" %></h1>
 <p>
-  <%= t ".homepage"%>
-  <a href="https://www.railstutorial.org/"><%= t "static_pages.about.railsTut"%></a>
+  <%= t ".homepage" %>
+  <%= link_to t("static_pages.about.rails_tut"), "https://www.railstutorial.org/" %>
 </p>
