@@ -4,3 +4,7 @@ help_link: "https://www.railstutorial.org/help"
 book_link: "https://www.railstutorial.org/book"
 news_link: "http://news.railstutorial.org/"
 michael_hartl_link: "http://www.michaelhartl.com/"
+name_maxlength: 50
+email_maxlength: 255
+password_minimumlength: 6
+mail_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
