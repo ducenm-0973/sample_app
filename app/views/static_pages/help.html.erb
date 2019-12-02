@@ -1,8 +1,7 @@
 <% provide :title, t(".title") %>
-<h1><%= t ".title" %></h1>
 <p>
   <%= t ".help_at" %>
-  <%= link_to t(".help_section"), "https://www.railstutorial.org/help" %>.
+  <%= link_to t(".help_section"), Settings.help_link %>.
   <%= t ".help_app" %>
-  <%= link_to t(".book"), "https://www.railstutorial.org/book" %>.
+  <%= link_to t(".book"), Settings.book_link %>.
 </p>

@@ -1,0 +1,14 @@
+<footer class="footer">
+    <small>
+      <%= t(".application.the") %> <%= link_to t("static_pages.about.rails_tut"), Settings.link %>
+      <%= t(".application.by") %> <%= link_to t(".application.michael_hartl"), Settings.michael_hartl_link %>
+    </small>
+    <nav>
+      <ul>
+        <li><%= link_to t("static_pages.about.title"), about_path %></li>
+        <li><%= link_to t("static_pages.contact.title"), contact_path %></li>
+        <li><%= link_to t(".application.news"), Settings.news_link %>
+        </li>
+      </ul>
+    </nav>
+  </footer>

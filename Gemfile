@@ -24,3 +24,5 @@ group :development do
   gem "spring-watcher-listen", "~> 2.0.0"
 end
 gem "rails-i18n"
+gem "bootstrap-sass", "3.3.7"
+gem "config"
