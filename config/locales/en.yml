@@ -30,6 +30,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  layouts:
+    application:
+      michael_hartl: "Michael Hartl"
+      news: "News"
+      the: "The"
+      by: "by"
+      home: "Home"
+      help: "Help"
+      login: "Login"
   static_pages:
     about:
       title: "About"
@@ -48,6 +57,13 @@ en:
     home:
       title: "Sample App"
       homepage: "This is the home page for the"
+      welcome: "Welcome to the Sample App"
+      sign_up: "Sign up now!"
+      rails_logo: "Rails logo"
+  users:
+    new:
+      signup: "Sign up"
+      describe: "This will be a signup page for new users."
   helpers:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample"
