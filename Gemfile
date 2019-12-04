@@ -26,3 +26,4 @@ end
 gem "rails-i18n"
 gem "bootstrap-sass", "3.3.7"
 gem "config"
+gem "bcrypt", "3.1.12"
