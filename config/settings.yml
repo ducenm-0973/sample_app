@@ -8,3 +8,5 @@ name_maxlength: 50
 email_maxlength: 255
 password_minimumlength: 6
 mail_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+gravatar_url: "https://secure.gravatar.com/avatar/"
+gravatar_size: 80
