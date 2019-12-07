@@ -54,5 +54,6 @@ en:
       login: "Log in"
       sign_up_now: "Sign up now!"
       new_user: "New user?"
+      remember: "Remember me on this computer"
   sessions_controller:
     invalid: "Invalid email/password combination"
