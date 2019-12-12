@@ -41,6 +41,16 @@ en:
       submit_button: "Create my account"
       confirm: "Confirmation"
       describe: "This will be a signup page for new users."
+    edit:
+      edit_user: "Edit user"
+      update: "Update your profile"
+      save: "Save changes"
+      change: "change"
+    index:
+      all: "All users"
+    user:
+      delete: "| delete"
+      sure?: "You sure"
   helpers:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample"
@@ -49,6 +59,10 @@ en:
       form_contains: "The form contains"
   users_controller:
     not_found: "User not found"
+    updated: "Profile updated"
+    please: "Please log in."
+    deleted: "User deleted"
+    delete_fail: "Delete unsuccessul"
   sessions:
     new:
       login: "Log in"
