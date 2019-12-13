@@ -1,4 +1,9 @@
 en:
+  user_mailer:
+    account_activation:
+      hi: "Hi"
+      click_link: "Click on the link below to activate your account:"
+      active: "Activate"
   layouts:
     application:
       michael_hartl: "Michael Hartl"
@@ -63,6 +68,10 @@ en:
     please: "Please log in."
     deleted: "User deleted"
     delete_fail: "Delete unsuccessul"
+    check_mail: "Please check your email to activate your account."
+  account_activations_controller:
+    activated: "Account activated!"
+    invalid_activation_link: "Invalid activation link"
   sessions:
     new:
       login: "Log in"
@@ -71,3 +80,6 @@ en:
       remember: "Remember me on this computer"
   sessions_controller:
     invalid: "Invalid email/password combination"
+    not_activated: "Account not activated. Check your email for the activation link."
+  mailers:
+    user_mailer: "Account activation"
