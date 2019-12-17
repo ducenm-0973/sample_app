@@ -10,6 +10,7 @@ class UsersController < ApplicationController
 
   def show
     redirect_to root_url unless @user.activated
+    @microposts = @user.microposts.page(params[:page]).per Settings.per_page
   end
 
   def new
@@ -52,14 +53,6 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit User::USER_PARAMS
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "users_controller.please"
-    redirect_to login_url
   end
 
   def load_user
