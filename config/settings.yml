@@ -19,3 +19,4 @@ max_content_length: 140
 whitelist: [jpg, jpeg, gif, png]
 resize: [400, 400]
 default: "image/jpeg,image/gif,image/png"
+show_follow_avt: 30
