@@ -2,6 +2,7 @@ class Micropost < ApplicationRecord
   belongs_to :user
 
   default_scope -> {order created_at: :desc}
+  scope :follow_post, ->(user_ids){where(user_id: user_ids)}
 
   mount_uploader :picture, PictureUploader
 

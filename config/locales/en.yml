@@ -59,6 +59,10 @@ en:
       sure?: "You sure"
     show:
       micropost: "Microposts"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
   helpers:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample"
@@ -126,6 +130,11 @@ en:
       compose: "Compose new micropost..."
     user_info:
       view_profile: "view my profile"
+    stat:
+      following: "following"
+      followers: "followers"
   javascripts:
     custom:
       max_file_size: "Maximum file size is 5MB. Please choose a smaller file."
+  relationships_controller:
+    success: "Success"
